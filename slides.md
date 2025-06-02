@@ -18,148 +18,76 @@ layout: cover
 
 ---
 
-# Tonight's Journey 🗺️
+# Tonight's Journey
 
-<div class="space-y-8 text-xl">
-  <div class="flex items-center gap-4 p-4 rounded-lg bg-blue-500/20">
-    <span class="text-3xl">🔧</span>
+<div class="space-y-6 max-w-4xl mx-auto">
+  <div class="flex items-center gap-6 p-6 border border-white/10 rounded-lg">
+    <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+      <span class="text-2xl">🔧</span>
+    </div>
     <div>
-      <div class="font-bold text-blue-300">Shadcn CLI</div>
-      <div class="text-lg opacity-80">Streamlining UI Component Integration</div>
+      <div class="text-xl font-semibold text-blue-300">Shadcn CLI</div>
+      <div class="text-base opacity-70">Streamlining UI Component Integration</div>
     </div>
   </div>
   
-  <div class="flex items-center gap-4 p-4 rounded-lg bg-green-500/20">
-    <span class="text-3xl">🔗</span>
+  <div class="flex items-center gap-6 p-6 border border-white/10 rounded-lg">
+    <div class="w-12 h-12 rounded-full bg-green-500/20 flex items-center justify-center">
+      <span class="text-2xl">🔗</span>
+    </div>
     <div>
-      <div class="font-bold text-green-300">Model Context Protocol (MCP)</div>
-      <div class="text-lg opacity-80">Bridging AI and External Tools</div>
+      <div class="text-xl font-semibold text-green-300">Model Context Protocol (MCP)</div>
+      <div class="text-base opacity-70">Bridging AI and External Tools</div>
     </div>
   </div>
   
-  <div class="flex items-center gap-4 p-4 rounded-lg bg-purple-500/20">
-    <span class="text-3xl">🧠</span>
+  <div class="flex items-center gap-6 p-6 border border-white/10 rounded-lg">
+    <div class="w-12 h-12 rounded-full bg-purple-500/20 flex items-center justify-center">
+      <span class="text-2xl">🧠</span>
+    </div>
     <div>
-      <div class="font-bold text-purple-300">Integration with Cursor</div>
-      <div class="text-lg opacity-80">Practical Implementation</div>
+      <div class="text-xl font-semibold text-purple-300">Integration with Cursor</div>
+      <div class="text-base opacity-70">Practical Implementation</div>
     </div>
   </div>
 </div>
 
 ---
 
-# What is Shadcn/ui? 🎨
+# What is Shadcn/ui?
 
-<div class="space-y-8">
-  <div class="text-center">
-    <h2 class="text-4xl font-bold text-blue-300 mb-6">Not a Traditional Component Library</h2>
-    <p class="text-xl opacity-90 max-w-4xl mx-auto">
-      Shadcn/ui is a <strong class="text-green-300">code distribution platform</strong> and collection of beautifully-designed, accessible components. <strong class="text-yellow-300">This is not a component library. It is how you build your component library.</strong>
+<div class="space-y-12">
+  <div class="text-center max-w-5xl mx-auto">
+    <h2 class="text-3xl font-light text-blue-300 mb-8">Not a Traditional Component Library</h2>
+    <p class="text-xl leading-relaxed opacity-90">
+      Shadcn/ui is a <span class="text-green-300 font-medium">code distribution platform</span> and collection of beautifully-designed, accessible components. <span class="text-yellow-300 font-medium">This is not a component library. It is how you build your component library.</span>
     </p>
   </div>
   
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-    <div class="space-y-6">
-      <h3 class="text-2xl font-bold text-green-300">🔓 Open Code Philosophy</h3>
-      <ul class="text-lg space-y-3">
-        <li class="flex items-start gap-3">
-          <span class="text-green-400 mt-1">✓</span>
-          <span>You own the actual component code</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <span class="text-green-400 mt-1">✓</span>
-          <span>Full transparency and control</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <span class="text-green-400 mt-1">✓</span>
-          <span>No more style overrides or wrappers</span>
-        </li>
-        <li class="flex items-start gap-3">
-          <span class="text-green-400 mt-1">✓</span>
-          <span>AI-ready for LLMs to understand</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
----
-
-# The Shadcn CLI: Your Code Distribution Tool 🚀
-
-<div class="space-y-8">
-  <div class="text-center">
-    <h2 class="text-4xl font-bold text-blue-300 mb-4">More Than Just a CLI</h2>
-    <p class="text-xl opacity-90 max-w-3xl mx-auto">
-      The Shadcn CLI is a <strong class="text-green-300">code distribution system</strong> that copies components directly into your codebase, giving you complete ownership and control.
-    </p>
-  </div>
-  
-  
-  <div class="bg-gradient-to-r from-blue-500/20 to-green-500/20 rounded-xl p-6 max-w-4xl mx-auto">
-    <h3 class="text-2xl font-bold text-yellow-300 mb-4 text-center">Key CLI Features</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <ul class="space-y-2">
-        <li class="flex items-center gap-3">
-          <span class="text-green-400">✓</span>
-          <span>Cross-framework route support</span>
-        </li>
-        <li class="flex items-center gap-3">
-          <span class="text-green-400">✓</span>
-          <span>Monorepo support</span>
-        </li>
-        <li class="flex items-center gap-3">
-          <span class="text-green-400">✓</span>
-          <span>Custom registry support</span>
-        </li>
-      </ul>
-      <ul class="space-y-2">
-        <li class="flex items-center gap-3">
-          <span class="text-blue-400">✓</span>
-          <span>Tailwind v4 compatibility</span>
-        </li>
-        <li class="flex items-center gap-3">
-          <span class="text-blue-400">✓</span>
-          <span>React 19 support</span>
-        </li>
-        <li class="flex items-center gap-3">
-          <span class="text-blue-400">✓</span>
-          <span>Component diff tracking</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
----
-
-# Why Choose Shadcn/ui? 💪
-
-<div class="text-center space-y-12">
-  <h2 class="text-4xl font-bold">The Copy-Paste Revolution</h2>
-  
-  <div class="bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-xl p-8 max-w-4xl mx-auto">
-    <h3 class="text-2xl font-bold text-yellow-300 mb-4">Traditional Libraries vs Shadcn/ui</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-      <div>
-        <h4 class="text-lg font-semibold text-red-300 mb-2">❌ Traditional Approach</h4>
-        <ul class="space-y-1 text-sm opacity-90">
-          <li>Install from NPM</li>
-          <li>Override styles with workarounds</li>
-          <li>Wrap components for customization</li>
-          <li>Mix incompatible APIs</li>
-          <li>Vendor lock-in</li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-lg font-semibold text-green-300 mb-2">✅ Shadcn/ui Approach</h4>
-        <ul class="space-y-1 text-sm opacity-90">
-          <li>Copy code directly</li>
-          <li>Edit components as needed</li>
-          <li>Consistent, composable API</li>
-          <li>Beautiful defaults</li>
-          <li>Complete control</li>
-        </ul>
+  <div class="max-w-4xl mx-auto">
+    <div class="border border-white/10 rounded-lg p-8">
+      <h3 class="text-xl font-medium text-green-300 mb-6">Open Code Philosophy</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+            <span class="text-base">You own the actual component code</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+            <span class="text-base">Full transparency and control</span>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+            <span class="text-base">No more style overrides or wrappers</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+            <span class="text-base">AI-ready for LLMs to understand</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -167,68 +95,164 @@ layout: cover
 
 ---
 
-<div class="flex flex-col items-center text-center">
-  <h1 class="text-6xl font-bold mb-8">🔗 Model Context Protocol</h1>
-  <h2 class="text-4xl font-bold text-green-300">Bridging AI and External Tools</h2>
-  <div class="text-lg mt-8 opacity-60">The universal connector for AI</div>
-</div>
+# The Shadcn CLI
 
----
-
-# Understanding MCP 🤖
-
-<div class="space-y-8">
-  <div class="text-center">
-    <h2 class="text-4xl font-bold text-green-300 mb-4">What is MCP?</h2>
-    <p class="text-xl opacity-90 max-w-4xl mx-auto">
-      The Model Context Protocol (MCP) is an <strong class="text-blue-300">open standard</strong> developed by Anthropic that enables AI applications to connect securely and efficiently with external data sources and tools.
+<div class="space-y-12">
+  <div class="text-center max-w-4xl mx-auto">
+    <h2 class="text-3xl font-light text-blue-300 mb-8">More Than Just a CLI</h2>
+    <p class="text-xl leading-relaxed opacity-90">
+      The Shadcn CLI is a <span class="text-green-300 font-medium">code distribution system</span> that copies components directly into your codebase, giving you complete ownership and control.
     </p>
   </div>
   
-  <div class="bg-gradient-to-r from-blue-500/20 to-green-500/20 rounded-xl p-8 text-center">
-    <div class="text-6xl mb-4">🔌</div>
-    <h3 class="text-3xl font-bold text-yellow-300 mb-4">Think of MCP as</h3>
-    <p class="text-2xl font-semibold">"USB-C for AI Applications"</p>
-    <p class="text-lg opacity-80 mt-2">A universal connector for seamless integration</p>
+  <div class="max-w-5xl mx-auto">
+    <div class="border border-white/10 rounded-lg p-8">
+      <h3 class="text-xl font-medium text-yellow-300 mb-8 text-center">Key CLI Features</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+            <span class="text-base">Cross-framework route support</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+            <span class="text-base">Monorepo support</span>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-blue-400"></div>
+            <span class="text-base">Custom registry support</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-blue-400"></div>
+            <span class="text-base">Tailwind v4 compatibility</span>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-purple-400"></div>
+            <span class="text-base">React 19 support</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-2 rounded-full bg-purple-400"></div>
+            <span class="text-base">Component diff tracking</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 ---
 
-# Key Features of MCP ⭐
+# Why Choose Shadcn/ui?
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-  <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-    <div class="text-4xl mb-4 text-center">🔧</div>
-    <h3 class="text-xl font-bold text-blue-300 mb-4 text-center">Standardized Integration</h3>
-    <p class="text-sm opacity-90">MCP provides a consistent method for AI models to interact with different tools and data sources, eliminating the need for custom integrations.</p>
+<div class="space-y-12">
+  <div class="text-center">
+    <h2 class="text-3xl font-light">The Copy-Paste Revolution</h2>
   </div>
   
-  <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-    <div class="text-4xl mb-4 text-center">🔒</div>
-    <h3 class="text-xl font-bold text-green-300 mb-4 text-center">Secure Communication</h3>
-    <p class="text-sm opacity-90">It ensures secure, two-way connections between AI-powered tools and external systems.</p>
-  </div>
-  
-  <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-    <div class="text-4xl mb-4 text-center">🔄</div>
-    <h3 class="text-xl font-bold text-purple-300 mb-4 text-center">Extensibility</h3>
-    <p class="text-sm opacity-90">Developers can build MCP servers to expose their data or tools, and AI applications (MCP clients) can connect to these servers.</p>
+  <div class="max-w-5xl mx-auto">
+    <div class="border border-white/10 rounded-lg p-8">
+      <h3 class="text-xl font-medium text-yellow-300 mb-8 text-center">Traditional Libraries vs Shadcn/ui</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h4 class="text-lg font-medium text-red-300 mb-6">Traditional Approach</h4>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-red-400"></div>
+              <span class="text-base opacity-90">Install from NPM</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-red-400"></div>
+              <span class="text-base opacity-90">Override styles with workarounds</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-red-400"></div>
+              <span class="text-base opacity-90">Wrap components for customization</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-red-400"></div>
+              <span class="text-base opacity-90">Mix incompatible APIs</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-red-400"></div>
+              <span class="text-base opacity-90">Vendor lock-in</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-medium text-green-300 mb-6">Shadcn/ui Approach</h4>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-green-400"></div>
+              <span class="text-base opacity-90">Copy code directly</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-green-400"></div>
+              <span class="text-base opacity-90">Edit components as needed</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-green-400"></div>
+              <span class="text-base opacity-90">Consistent, composable API</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-green-400"></div>
+              <span class="text-base opacity-90">Beautiful defaults</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 rounded-full bg-green-400"></div>
+              <span class="text-base opacity-90">Complete control</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 ---
 
+<div class="text-center space-y-8">
+  <h1 class="text-5xl font-light">Model Context Protocol</h1>
+  <h2 class="text-3xl font-medium text-green-300">Bridging AI and External Tools</h2>
+  <p class="text-lg opacity-70 max-w-2xl mx-auto">The universal connector for AI</p>
+</div>
 
+---
 
-# Demo Time! 🎬
+# Understanding MCP
+
+<div class="space-y-12">
+  <div class="text-center max-w-5xl mx-auto">
+    <h2 class="text-3xl font-light text-green-300 mb-8">What is MCP?</h2>
+    <p class="text-xl leading-relaxed opacity-90">
+      The Model Context Protocol (MCP) is an <span class="text-blue-300 font-medium">open standard</span> developed by Anthropic that enables AI applications to connect securely and efficiently with external data sources and tools.
+    </p>
+  </div>
+  
+  <div class="max-w-4xl mx-auto">
+    <div class="border border-white/10 rounded-lg p-8 text-center">
+      <div class="text-4xl mb-6">🔌</div>
+      <h3 class="text-2xl font-medium text-yellow-300 mb-4">Think of MCP as</h3>
+      <p class="text-xl font-medium mb-2">"USB-C for AI Applications"</p>
+      <p class="text-base opacity-70">A universal connector for seamless integration</p>
+    </div>
+  </div>
+</div>
+
+---
+
+# Demo Time
 
 <div class="text-center space-y-12">
-  <h2 class="text-5xl font-bold">Let's See It in Action</h2>
+  <h2 class="text-4xl font-light">Let's See It in Action</h2>
   
-  <div class="text-8xl">👨‍💻</div>
+  <div class="text-6xl">👨‍💻</div>
   
   <div class="space-y-6">
-    <p class="text-2xl text-blue-300 font-semibold">Live Integration Demo</p>
+    <p class="text-xl text-blue-300 font-medium">Live Integration Demo</p>
+    <p class="text-base opacity-70 max-w-2xl mx-auto">Building components with Shadcn CLI and MCP in Cursor</p>
   </div>
 </div>
