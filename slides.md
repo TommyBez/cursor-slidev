@@ -1,5 +1,5 @@
 ---
-title: Integrating Shadcn CLI and MCP with Cursor
+title: Cursor Meetup Florence - Enhancing Development Workflows
 info: |
   Cursor Meetup Florence - Enhancing Development Workflows
 class: bg-[#0F0F0F] text-white text-center
