@@ -1,6 +1,6 @@
 <template>
   <div class="slidev-layout cover">
-    <div class="my-auto w-full">
+    <div class="w-full max-w-6xl mx-auto">
       <slot />
     </div>
   </div>

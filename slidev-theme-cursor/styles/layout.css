@@ -96,10 +96,14 @@ hr {
 
 .slidev-layout.cover,
 .slidev-layout.intro {
-  @apply h-full grid;
+  @apply h-screen flex flex-col items-center;
+  @apply pt-20 pb-8 px-8;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
 
   h1 {
-    @apply text-6xl leading-20;
+    @apply text-3xl leading-tight;
   }
 
   h1 + p {
