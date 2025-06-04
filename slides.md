@@ -9,8 +9,14 @@ layout: cover
 
 ---
 
+<div class="flex items-center justify-center h-full">
+  <img src="/assets/Cursor_Italy.png" alt="Cursor Italy" class="w-96 h-96 object-contain" />
+</div>
+
+---
+
 <div class="flex flex-col items-center text-center space-y-4">
-  <img src="/assets/Cursor_Italy.png" alt="Cursor Italy" class="w-40 h-40 object-contain" />
+  <img src="/assets/cursor-horizontal-dark-bg-full-color@4x.png" alt="Cursor" class="w-40 h-40 object-contain" />
   <div class="space-y-3">
     <h1 class="text-3xl font-bold leading-tight">How to integrate the new<br/>Shadcn MCP feature<br/>with Cursor</h1>
     <p class="text-lg text-blue-300 font-semibold">🔧 + 🔗 + 🧠</p>
